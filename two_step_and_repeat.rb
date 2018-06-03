@@ -41,7 +41,7 @@ def how_many_steps?
   loop do
   steps += 1
   puts steps
-  if steps % 2 == 0
+  if (steps % 2 == 0)
     return "Left"
   else
     return "Right"
