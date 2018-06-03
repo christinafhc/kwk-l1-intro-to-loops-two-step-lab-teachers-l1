@@ -39,7 +39,7 @@ def how_many_steps?
   # Write a loop that fulfills all criteria from Part 3 of the README.md
   steps = 0
   steps += 1
-  puts steps 
+  puts steps
   if steps % 2 == 0
     return "Left"
   else
