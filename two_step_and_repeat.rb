@@ -38,6 +38,7 @@ end
 def how_many_steps?
   # Write a loop that fulfills all criteria from Part 3 of the README.md
   steps = 0
+  loop do
   steps += 1
   puts steps
   if steps % 2 == 0
@@ -46,6 +47,7 @@ def how_many_steps?
     return "Right"
   end
   sleep(0.5)
+end
 end
 
 def break_dance
